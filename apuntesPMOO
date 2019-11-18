@@ -1,0 +1,89 @@
+--> leer de fichero:
+	declarar variable [FILE]: file_type; e ir jugando con ella
+	
+	para leer de una linea los datos del fichero:
+	get([FILE], y variable si es entero, char, boolean); -->
+	--> encuentra el primer tipo que le hayamos dicho y entonces
+	se puede asignar ese valor guardado.
+
+--> escribir en fichero:
+	declarar variable [FILE]: file_type; e ir jugando con ella 
+	
+	se escribe en la primera linea del fichero al realizar
+	un OPEN, solo es hacer -->put([FILE], ____);
+
+--------------------------------------------------------------------------------
+
+TAD y MAE en ADA
+
+--> TAD
+	se divide en dos ficheros: el .ads y el .adb
+	Es un modulo, un package con el cual se puede reutilizar software
+	poniendo tan solo la dependencia WITH [el paquete].
+	
+   --> .ads
+		lleva la especificacion de los programas que 
+		van a ser usados, acabados en ';' en vez de con IS.
+		la estructura del .ads con un ejemplo es la siguiente:
+	
+	package Productos is 
+	type Producto is private (aqui elegimos si debe ser private o limited private)
+
+	--> especificacion de las operaciones, ya sean procedimientos
+	--> o funciones
+
+	PRIVATE
+	Type Producto IS RECORD
+	
+	--> toda clase de atributos que nos pidan
+
+	END RECORD;
+
+END Productos;
+
+
+
+  --> .adb
+	el .adb tiene la siguiente estructura:
+
+DEPENDENCIAS
+	PACKAGE BODY Productos IS
+
+	--> Implementacion de todas las operaciones que hemos
+	especificado en el .ads
+
+	END Productos;
+
+
+IMPORTANTE: Con un TAD puedo crear tantos objetos del tipo Productos.Producto
+	    como quiera.
+
+
+-->MAE 
+	la estructura de la MAE es la siguiente:
+
+   --> .ads
+
+	DEPENDENCIAS
+	PACKAGE Inventario IS
+	
+	-->Especificacion de los programas que vamos a usar
+
+	END Inventario;
+	
+
+   --> .adb
+	DEPENDENCIAS
+	PACKAGE BODY Inventario IS
+	
+	TYPE Inventario IS RECORD
+	   --> atributos
+	END RECORD;
+
+declarar variable Inv: Inventario;
+
+	-->IMPLEMENTACION de todos los programas especificados en el .ads
+
+	BEGIN
+	--> inicializar las variables del record
+	END Inventario;
