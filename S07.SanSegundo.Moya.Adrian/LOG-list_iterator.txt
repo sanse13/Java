@@ -1,0 +1,124 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados
+[INFO] 6 archivos borrados en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados
+
+*** Test: 1 de 3 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/list_iterator/input/input01.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/list_iterator/output/output00.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input01.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input01.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input01.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input01.txt...
+[INFO] Leida linea: @3				# dimension@
+[INFO] Lista leida: 
+1 2 3
+[INFO] Elapsed time [reading args]: 8 millis.
+[INFO] Ejecutando solucion...@input01.txt
+[INFO] Linea leida: new
+[INFO] Linea leida: next
+[INFO] Linea leida: next
+[INFO] Linea leida: next
+[INFO] Linea leida: hasNext
+[INFO] Elapsed time [solve]: 11 millis.
+
+[INFO] Solucion ejecutada con: input01.txt
+****************************
+!!! Resultado INCORRECTO !!!	input01.txt
+****************************
+*** Entrada 
+3				# dimension
+1	2	3		
+
+# operaciones sobre el iterador
+
+new
+next
+next
+next
+hasNext
+*** Salida producida 
+1
+2
+3
+false
+*** Salida esperada 
+true
+1
+true
+2
+true
+3
+false
+
+*** Test: 2 de 3 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/list_iterator/input/input02.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/list_iterator/output/output02.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input02.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input02.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input02.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input02.txt...
+[INFO] Leida linea: @0				# dimension@
+[INFO] Lista leida: 
+
+[INFO] Elapsed time [reading args]: 0 millis.
+[INFO] Ejecutando solucion...@input02.txt
+[INFO] Linea leida: hasNext
+[INFO] Linea leida: next
+[INFO] Elapsed time [solve]: 1 millis.
+
+[INFO] Solucion ejecutada con: input02.txt
+!!! Resultado correcto !!! con input02.txt
+
+*** Test: 3 de 3 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/list_iterator/input/input00.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/list_iterator/output/output01.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input00.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt...
+[INFO] Leida linea: @3				# dimension@
+[INFO] Lista leida: 
+1 2 3
+[INFO] Elapsed time [reading args]: 1 millis.
+[INFO] Ejecutando solucion...@input00.txt
+[INFO] Linea leida: hasNext
+[INFO] Linea leida: next
+[INFO] Linea leida: hasNext
+[INFO] Linea leida: next
+[INFO] Linea leida: hasNext
+[INFO] Linea leida: next
+[INFO] Linea leida: hasNext
+[INFO] Elapsed time [solve]: 1 millis.
+
+[INFO] Solucion ejecutada con: input00.txt
+****************************
+!!! Resultado INCORRECTO !!!	input00.txt
+****************************
+*** Entrada [10 lineas de 11]
+3				# dimension
+1	2	3		
+
+# operaciones sobre el iterador
+hasNext
+next
+hasNext
+next
+hasNext
+next
+*** Salida producida 
+true
+1
+true
+2
+true
+3
+false
+*** Salida esperada 
+1
+2
+3
+false
+
+***********
+*** Exitos: 1 de 3
+***********
+

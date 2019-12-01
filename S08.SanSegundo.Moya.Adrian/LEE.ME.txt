@@ -1,0 +1,23 @@
+¿Qué hay que hacer?
+En src > a.int_binary_search_tree, completar el codigo de la clase IntBinarySearchTree.
+
+Sus metodos tienen la misma cabecera que los ya implementados PERO ahora deben implementarse de manera iterativa,
+y gestionar adecuadamente el campo "parent" de cada nodo.
+
+En src > b.frontera, completar el codigo de la clase Student_Code, mediante un recorrido en anchura.
+
+¿Hay ayuda para probar las soluciones?
+Para el ejercicio a) dos formas:
+
+1) En src > a.int_binary_search_tree, ejecutar la App incluida: es el estilo hacker-rank.
+Para esto es necesario que se implemente otra version de "inOrderNext", que esta en la clase a completar.
+
+2) En la pestanya "Package Explorer", pinchar la carpeta "junit" (pero no JUnit5!),
+ boton derecho y seleccionar "Run As > JUnit Test".
+ 
+ Si aparece una barra verde, parece que todo ha ido bien; si no... hay algo a revisar!
+ 
+ 2) Para el ejercicio b), lo mismo que la 1) arriba
+ 
+ Los casos de prueba incluidos en la carpeta "test_cases" estan ahi a efectos de "muestra":
+ incluya los que considere oportunos para probar exhaustivamente la solucion. 

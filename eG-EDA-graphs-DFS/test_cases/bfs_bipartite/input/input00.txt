@@ -1,0 +1,15 @@
+false		# dirigido
+15			# nodos
+12			# edge lines
+0	1
+1	2
+2	3
+3	4
+
+10	11
+11	12
+12	13
+13	14
+
+
+

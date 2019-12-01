@@ -1,0 +1,10 @@
+contains 5 false
+insert 2
+insert 1
+insert 5
+remove 5
+contains 5 false
+contains 1 true
+contains 2 true
+findmax 2
+inordernext 1 2

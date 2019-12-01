@@ -1,0 +1,9 @@
+Linea 1: un entero (la columna de la casilla de entrada, en la primera fila)
+Linea 2: un entero (la columna de la casilla de salida, en la ultima fila)
+Linea 3: un entero N que indica el numero de filas y columnas del laberinto
+Linea 4: un entero X 
+N lineas siguientes: cada una con N enteros separados por un espacio.
+						Cada linea corresponde a una fila de la cuadricula.
+						Una casilla(fila=i, columna=j) esta libre si el entero j-esimo de la fila i-esima es
+						igual al netro X de la linea 2
+ 

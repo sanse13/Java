@@ -1,0 +1,31 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./resultados
+[INFO] 2 archivos borrados en /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./resultados
+
+*** Test: 1 de 1 ***
+	Entrada: /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./test_cases/int_binary_search_tree/input/input00.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./test_cases/int_binary_search_tree/output/output00.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./resultados/input00.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./resultados/input00.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./resultados/OUTPUT__input00.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/EDA-eG-Semana-08/./resultados/input00.txt...
+[INFO] Elapsed time [reading args]: 0 millis.
+[INFO] Ejecutando solucion...@input00.txt
+[linea: 5] contains 5
+[linea: 7] insert 2
+[linea: 8] insert 1
+[linea: 9] insert 5
+[linea: 11] remove 5
+[linea: 13] contains 5
+[linea: 14] contains 1
+[linea: 15] contains 2
+[linea: 17] findmax
+[linea: 20] inordernext 1
+[INFO] Elapsed time [solve]: 9 millis.
+
+[INFO] Solucion ejecutada con: input00.txt
+!!! Resultado correcto !!! con input00.txt
+
+***********
+*** Exitos: 1 de 1
+***********
+

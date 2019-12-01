@@ -1,0 +1,1 @@
+Una linea con el numero de objetos que hay en la imagen

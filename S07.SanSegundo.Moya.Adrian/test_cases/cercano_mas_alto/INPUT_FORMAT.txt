@@ -1,0 +1,7 @@
+Linea 1: un entero (el nodo referido X)
+Linea 2: un entero N (nodos del grafo G)
+Linea 3: N enteros separados por un espacio, indicando la altura de cada nodo (el array referido H)
+Linea 4: un entero E, que es el numero de aristas descritas en las lineas siguientes
+
+E lineas siguientes: dos enteros O y D separados por un espacio,
+			indicando que el grafo G contiene una arista uniendo los nodos O y D 

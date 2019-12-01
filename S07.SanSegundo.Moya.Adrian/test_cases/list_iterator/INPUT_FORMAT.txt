@@ -1,0 +1,9 @@
+Linea 1: un entero N
+Linea 2: N enteros separados por un espacio, indicando el contenido de una lista
+Lineas siguientes:
+			Cada linea contiene una orden que la aplicacion procesa. Las posibles ordenes son:
+					"new" se crea un iterador de la clase MyIterator 
+					"hasNext" se invoca la operacion correspondiente del iterador en curso
+					"next" se invoca la operacion correspondiente del iterador en curso
+					"rmv" se invoca la operacion correspondiente del iterador en curso
+					

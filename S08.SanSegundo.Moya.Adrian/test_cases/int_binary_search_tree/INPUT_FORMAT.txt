@@ -1,0 +1,5 @@
+Cada linea ncontiene el nombre de una orden, seguido por un entero si es necesario.
+Las ordenes pueden ser:
+	findmax		contains	insert		remove		inordernext
+	
+contains/add/remove/inordernext deben ir seguidas por un entero

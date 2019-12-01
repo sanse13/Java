@@ -1,0 +1,1 @@
+Una linea por cada objeto de la imagen indicando el area del reactangulo que lo encierra

@@ -1,0 +1,1 @@
+Una linea con un entero: es el numero del nodo calculado (no su altura!)

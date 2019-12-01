@@ -1,0 +1,21 @@
+# cada linea contiene el nombre de una orden (da igual si es mayuscula o minuscula)
+
+# contains/insert/remove/inordernext deben ir seguidas por un entero
+
+# contains/insert/remove no escriben nada en la salida
+contains 5
+
+insert 2
+insert 1
+insert 5
+
+remove 5
+
+contains 5
+contains 1
+contains 2
+
+findmax
+
+# el entero de inordernext debe estar limitado a enteros en el arbol
+inordernext 1

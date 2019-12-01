@@ -1,0 +1,77 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados
+[INFO] 4 archivos borrados en /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados
+
+*** Test: 1 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./test_cases/a_es_bst/input/input01.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./test_cases/a_es_bst/output/output00.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/input01.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/input01.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/OUTPUT__input01.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/input01.txt...
+[INFO] Texto linea leida @7			# un entero N, que es la cantidad de enteros en la linea siguiente@
+[INFO] Texto linea leida @35	20	50	-1	30	40	-1@
+Arbol:
+35
+    [H. Izdo] 20
+        [H. Dcho] 30
+    [H. Dcho] 50
+        [H. Izdo] 40
+[INFO] Elapsed time [reading args]: 25 millis.
+[INFO] Ejecutando solucion...@input01.txt
+[INFO] Elapsed time [solve]: 0 millis.
+
+[INFO] Solucion ejecutada con: input01.txt
+****************************
+!!! Resultado INCORRECTO !!!	input01.txt
+****************************
+*** Entrada 
+7			# un entero N, que es la cantidad de enteros en la linea siguiente
+35	20	50	-1	30	40	-1
+# los enteros de la linea anterior son los enteros de un arbol binario,
+# cuando ese arbol se recorre por niveles, de arriba abajo y de izquierda a derecha,
+# sustituyendo los nodos inexistentes por  -1
+*** Salida producida 
+true
+*** Salida esperada 
+false
+
+*** Test: 2 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./test_cases/a_es_bst/input/input00.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./test_cases/a_es_bst/output/output02.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/input00.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/input00.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/OUTPUT__input00.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/input00.txt...
+[INFO] Texto linea leida @7			# un entero N, que es la cantidad de enteros en la linea siguiente@
+[INFO] Texto linea leida @25	20	50	15	30	10	60@
+Arbol:
+25
+    [H. Izdo] 20
+        [H. Izdo] 15
+        [H. Dcho] 30
+    [H. Dcho] 50
+        [H. Izdo] 10
+        [H. Dcho] 60
+[INFO] Elapsed time [reading args]: 1 millis.
+[INFO] Ejecutando solucion...@input00.txt
+[INFO] Elapsed time [solve]: 0 millis.
+
+[INFO] Solucion ejecutada con: input00.txt
+****************************
+!!! Resultado INCORRECTO !!!	input00.txt
+****************************
+*** Entrada 
+7			# un entero N, que es la cantidad de enteros en la linea siguiente
+25	20	50	15	30	10	60
+# los enteros de la linea anterior son los enteros de un arbol binario,
+# cuando ese arbol se recorre por niveles, de arriba abajo y de izquierda a derecha,
+# sustituyendo los nodos inexistentes por  -1
+*** Salida producida 
+false
+*** Salida esperada 
+true
+
+***********
+*** Exitos: 0 de 2
+***********
+

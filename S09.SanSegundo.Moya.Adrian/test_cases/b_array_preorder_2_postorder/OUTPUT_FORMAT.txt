@@ -1,0 +1,1 @@
+Una linea con los enteros del array resultante separados por un espacio

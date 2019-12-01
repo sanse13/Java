@@ -1,0 +1,30 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados
+[INFO] 2 archivos borrados en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados
+
+*** Test: 1 de 1 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/eval_min_max/input/completo3niveles.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/eval_min_max/output/completo3niveles.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/completo3niveles.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/completo3niveles.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/OUTPUT__completo3niveles.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/completo3niveles.txt...
+[INFO] Leida linea: @7@
+[App] Arbol leido
+1
+    [H. Izdo] 2
+        [H. Izdo] 4
+        [H. Dcho] 5
+    [H. Dcho] 3
+        [H. Izdo] 6
+        [H. Dcho] 7
+[INFO] Elapsed time [reading args]: 11 millis.
+[INFO] Ejecutando solucion...
+[INFO] Elapsed time [solve]: 2 millis.
+
+[INFO] Solucion ejecutada con: completo3niveles.txt
+!!! Resultado correcto !!! con completo3niveles.txt
+
+***********
+*** Exitos: 1 de 1
+***********
+

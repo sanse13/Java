@@ -1,0 +1,3 @@
+Linea 1: un entero F que es el numero de filas
+Linea 2: un entero C que es el numero de columnas
+F lineas siguientes: C enteros

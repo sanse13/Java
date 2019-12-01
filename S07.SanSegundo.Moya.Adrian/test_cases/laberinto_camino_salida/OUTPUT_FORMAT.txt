@@ -1,0 +1,2 @@
+Cero o mas lineas con dos enteros separados por un espacio, indicando las coordenadas (COLUMNA, FILA)
+de cada casilla del camino

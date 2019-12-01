@@ -1,0 +1,56 @@
+[INFO] Encontrada carpeta: C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\resultados
+[INFO] 0 archivos borrados en C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\resultados
+
+*** Test: 1 de 1 ***
+	Entrada: C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\test_cases\bfs_conexo\input\input00.txt
+	Salida esperada: C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\test_cases\bfs_conexo\output\output00.txt
+[INFO] Entrada copiada en C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\resultados\input00.txt
+[INFO] System.in redirigido a archivo: C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\resultados\input00.txt
+[INFO] Archivo de salida: C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\resultados\OUTPUT__input00.txt
+[INFO] Leyendo archivo C:\Users\jipalgol\x-local\ws\all\eG-EDA-graphs-DFS\.\resultados\input00.txt...
+[INFO] Leida linea: @false		# dirigido@
+[INFO] Leida linea: @15			# nodos@
+[INFO] Leida linea: @12			# edge lines@
+[App] Grafo leido
+	Nombre Grafo: input00.txt
+	Dirigido?: false
+	Nodos: 15
+	Nodo origen: 0; adyacentes: -> [1]
+	Nodo origen: 1; adyacentes: -> [0 2]
+	Nodo origen: 2; adyacentes: -> [1 3]
+	Nodo origen: 3; adyacentes: -> [2 4]
+	Nodo origen: 4; adyacentes: -> [3]
+	Nodo origen: 10; adyacentes: -> [11]
+	Nodo origen: 11; adyacentes: -> [10 12]
+	Nodo origen: 12; adyacentes: -> [11 13]
+	Nodo origen: 13; adyacentes: -> [12 14]
+	Nodo origen: 14; adyacentes: -> [13]
+[INFO] Elapsed time [reading args]: 311 millis.
+[INFO] Ejecutando solucion...@input00.txt
+[INFO] Elapsed time [solve]: 26 millis.
+Componentes conexas? true
+
+[INFO] Solucion ejecutada con: input00.txt
+****************************
+!!! Resultado INCORRECTO !!!	input00.txt
+****************************
+*** Entrada [10 lineas de 15]
+false		# dirigido
+15			# nodos
+12			# edge lines
+0	1
+1	2
+2	3
+3	4
+
+10	11
+11	12
+*** Salida producida 
+true
+*** Salida esperada 
+7
+
+***********
+*** Exitos: 0 de 1
+***********
+

@@ -1,0 +1,3 @@
+Una linea indicando el numero de objetos de la imagen.
+
+A continuacion, una linea por cada objeto, con un entero que es el area del reactangulo referido. 

@@ -1,0 +1,9 @@
+Linea 1: un entero N
+Linea 2: N enteros separados por un espacio, describiendo un arbol binario de enteros, recorrido por niveles
+			de arriba abajo, y de izquierda a derecha, como en problemas anteriores.
+Lineas siguientes:
+			Cada linea contiene una orden que la aplicacion procesa. Las posibles ordenes son:
+					"new" se crea un iterador sobre el arbol referido arriba
+					"hasNext" se invoca la operacion correspondiente del iterador en curso
+					"next" se invoca la operacion correspondiente del iterador en curso
+					

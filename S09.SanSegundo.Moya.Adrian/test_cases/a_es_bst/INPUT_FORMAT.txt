@@ -1,0 +1,4 @@
+Linea 1: un entero N, que es la cantidad de enteros en la linea siguiente
+Linea 2: N enteros >= 0, que son los enteros de un arbol binario
+cuando ese arbol se recorre por niveles, de arriba abajo y de izquierda a derecha,
+sustituyendo los nodos inexistentes por  -1

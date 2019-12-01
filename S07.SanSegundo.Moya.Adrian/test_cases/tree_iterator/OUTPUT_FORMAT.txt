@@ -1,0 +1,3 @@
+Una linea por cada orden "hasNext", "next" leida del archivo de entrada.
+Cada linea contiene el resultado de la operacion hecha sobre el iterador en curso,
+incluido el nombre de la excepcion producida por "next", cuando sea el caso.

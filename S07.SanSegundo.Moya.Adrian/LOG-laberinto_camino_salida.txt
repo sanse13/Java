@@ -1,0 +1,127 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados
+[INFO] 4 archivos borrados en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados
+
+*** Test: 1 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/laberinto_camino_salida/input/input01.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/laberinto_camino_salida/output/output00.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input01.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input01.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input01.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input01.txt...
+[INFO] Leida linea: @2			# enterColumn@
+[App] Columna de entrada: 2
+[INFO] Leida linea: @3			# exitColumn@
+[App] Columna de salida: 3
+[INFO] Leida linea: @5			# dimension@
+[App] Filas/columnas: 5
+[INFO] Leida linea: @1			# libres@
+[App] Marca de casilla libre: 5
+[INFO] Matriz leida: 
+1 1 0 0 1
+0 1 0 0 0
+0 1 1 0 0
+0 0 1 1 0
+0 0 0 1 1
+
+[INFO] Elapsed time [reading args]: 9 millis.
+[INFO] Ejecutando solucion...@input01.txt
+[INFO] Elapsed time [solve]: 11 millis.
+
+[INFO] Solucion ejecutada con: input01.txt
+****************************
+!!! Resultado INCORRECTO !!!	input01.txt
+****************************
+*** Entrada 
+2			# enterColumn
+3			# exitColumn
+5			# dimension
+1			# libres
+1	1	0	0	1
+0	1	0	0	0
+0	1	1	0	0
+0	0	1	1	0
+0	0	0	1	1
+*** Salida producida 
+2 0
+1 0
+1 1
+1 2
+2 2
+2 3
+3 3
+3 4
+*** Salida esperada 
+0 0
+1 0
+1 1
+1 2
+2 2
+2 3
+3 3
+3 4
+4 4
+
+*** Test: 2 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/laberinto_camino_salida/input/input00.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/laberinto_camino_salida/output/output01.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input00.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt...
+[INFO] Leida linea: @0			# enterColumn@
+[App] Columna de entrada: 0
+[INFO] Leida linea: @4			# exitColumn@
+[App] Columna de salida: 4
+[INFO] Leida linea: @5			# dimension@
+[App] Filas/columnas: 5
+[INFO] Leida linea: @1			# libres@
+[App] Marca de casilla libre: 5
+[INFO] Matriz leida: 
+1 1 0 0 1
+0 1 0 0 0
+0 1 1 0 0
+0 0 1 1 0
+0 0 0 1 1
+
+[INFO] Elapsed time [reading args]: 3 millis.
+[INFO] Ejecutando solucion...@input00.txt
+[INFO] Elapsed time [solve]: 0 millis.
+
+[INFO] Solucion ejecutada con: input00.txt
+****************************
+!!! Resultado INCORRECTO !!!	input00.txt
+****************************
+*** Entrada 
+0			# enterColumn
+4			# exitColumn
+5			# dimension
+1			# libres
+1	1	0	0	1
+0	1	0	0	0
+0	1	1	0	0
+0	0	1	1	0
+0	0	0	1	1
+*** Salida producida 
+0 0
+1 0
+1 1
+1 2
+2 2
+2 3
+3 3
+3 4
+4 4
+*** Salida esperada 
+2 0
+1 0
+1 1
+1 2
+2 2
+2 3
+3 3
+3 4
+
+***********
+*** Exitos: 0 de 2
+***********
+

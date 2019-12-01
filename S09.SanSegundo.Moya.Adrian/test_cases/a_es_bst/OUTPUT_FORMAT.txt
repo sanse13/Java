@@ -1,0 +1,1 @@
+Una linea con "true" si el arbol descrito es bst, "false" si no lo es

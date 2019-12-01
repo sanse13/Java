@@ -1,0 +1,47 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados
+[INFO] 2 archivos borrados en /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados
+
+*** Test: 1 de 1 ***
+	Entrada: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./test_cases/c_pixelated_image_basico/input/enunciado.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./test_cases/c_pixelated_image_basico/output/enunciado.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/enunciado.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/enunciado.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/OUTPUT__enunciado.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/EDA-eG__02-Semana-09L/./resultados/enunciado.txt...
+[INFO] Texto linea leida @5	# numero de filas (m)@
+[INFO] Texto linea leida @7	# numero de columas (n). Siguen m lineas: cada una con n enteros separados por un espacio@
+[INFO] Texto linea leida @1	1	1	0	0	1	0@
+[INFO] Texto linea leida @0	1	0	0	1	1	0@
+[INFO] Texto linea leida @1	0	0	0	0	0	0@
+[INFO] Texto linea leida @1	1	1	0	1	0	0@
+[INFO] Texto linea leida @0	0	1	1	1	0	1@
+[INFO] Imagen
+1 1 1 0 0 1 0
+0 1 0 0 1 1 0
+1 0 0 0 0 0 0
+1 1 1 0 1 0 0
+0 0 1 1 1 0 1
+
+[INFO] Elapsed time [reading args]: 10 millis.
+[INFO] Ejecutando solucion...@enunciado.txt
+base 3
+altura 2
+6
+base 2
+altura 2
+4
+base 5
+altura 3
+15
+base 1
+altura 1
+1
+[INFO] Elapsed time [solve]: 13 millis.
+
+[INFO] Solucion ejecutada con: enunciado.txt
+!!! Resultado correcto !!! con enunciado.txt
+
+***********
+*** Exitos: 1 de 1
+***********
+

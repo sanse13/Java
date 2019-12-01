@@ -1,0 +1,8 @@
+Linea 1: un entero X
+Linea 2: un entero D
+Linea 3: true o false segun el grafo sea dirigido (true) o no
+Linea 4: un entero N, que indica el numero de nodos del grafo
+Linea 5: un entero M, que indica el numero de lineas que siguen, indicando aristas del grafo
+M Lineas siguientes:
+			Cada linea contiene un par de enteros A y B, que indican la existencia de una arista
+			entre los nodos A y B. 

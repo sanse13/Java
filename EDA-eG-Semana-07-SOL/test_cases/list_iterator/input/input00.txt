@@ -1,0 +1,11 @@
+3				# dimension
+1	2	3		
+
+# operaciones sobre el iterador
+hasNext
+next
+hasNext
+next
+hasNext
+next
+hasNext

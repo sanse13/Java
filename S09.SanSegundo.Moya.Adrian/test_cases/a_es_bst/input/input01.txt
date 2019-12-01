@@ -1,0 +1,5 @@
+7			# un entero N, que es la cantidad de enteros en la linea siguiente
+35	20	50	-1	30	40	-1
+# los enteros de la linea anterior son los enteros de un arbol binario,
+# cuando ese arbol se recorre por niveles, de arriba abajo y de izquierda a derecha,
+# sustituyendo los nodos inexistentes por  -1

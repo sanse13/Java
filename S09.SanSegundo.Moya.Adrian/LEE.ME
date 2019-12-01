@@ -1,0 +1,53 @@
+El proyecto queda con tres ejercicios, 
+
+- comprobar si un arbol binario es de busqueda (1p/OBLIGATORIO)
+		=> LA SOLUCION DEBE SER LINEAL EN EL NUMERO DE NODOS del arbol.
+		
+- conversion de array en pre-orden a array en post-orden (el enunciado del lunes)
+		Segun el tiempo de ejecucion de la solucion (su tasa de crecimiento):
+		
+			- Si es O(n^2) => suficiente? (n: tamanyo del array)
+			
+			- Si es O(n logn) => bien+
+			
+			- Si es O(n), usando un espacio extra O(n) 
+				  (además del correspondiente a la pila de la recursión)
+				  		=> bien+++
+				  
+			- Si es O(n), usando un espacio extra O(1) 
+				  (además del correspondiente a la pila de la recursión), Exc!
+				  
+- procesamiento de imagen (el enunciado del lunes).
+		Se DEBE resolver obligatoriamente de manera que su tiempo sea lineal en
+		el numero de nodos y aristas, haciendo a lo sumo UN recorrido de todo el grafo.
+		 
+Puede elegirse entre dos versiones:
+
+        Simplificada: contar el numero de objetos de la imagen.
+          Esto es lo mismo que contar el numero de componentes conexas de un grafo
+          (miercoles?) => suficiente
+          
+        Original: contar el numero de objetos Y el area del rectangulo que encuadra/enmarca
+        cada uno de ellos
+        
+En ambos casos se puede elegir resolver el problema:
+ 
+		- implementando la clase BFS que esta en "c.pixelated_image"
+		
+		- implementando una funcion que, dada una imagen, "imprima" los resultados
+		pedidos en el "printer" pasado como parametro. Puede elegir entre:
+		
+		b) imprimir el area del rectangulo que encuadra/enmarca cada objeto
+		Simple-
+		
+		c) imprimir primero el numero de objetos, Y despues el area del rectangulo que
+		/enmarca cada uno de ellos: Simple+
+		
+      
+Observación: para definir un rectangulo hay que conocer sus cuatro lados.
+             Es decir: dos lineas horizontales  y dos lineas verticales.
+				  
+				  
+		NO ES ACEPTABLE EL USO DE clases en la libreria  de Java
+				(salvo para cosas como copiar un array en otro, y similares)
+				  

@@ -1,0 +1,1 @@
+Una linea por cada nivel del arbol con el indice del nivel y los valores del arbol en ese nivel 

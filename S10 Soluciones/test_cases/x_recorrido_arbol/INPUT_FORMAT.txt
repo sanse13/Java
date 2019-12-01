@@ -1,0 +1,2 @@
+Linea 1: un entero N
+Linea 2: N enteros que representan los valores de un arbol recorrido por niveles, de la manera usual

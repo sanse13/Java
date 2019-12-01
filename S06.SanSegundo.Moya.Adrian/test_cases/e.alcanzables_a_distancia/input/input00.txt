@@ -1,0 +1,7 @@
+0			# nodo origen
+2			# distancia maxima
+true		# es dirigido
+5			# cantidad de nodos
+2			# cantidad de aristas 
+0 1
+1 2

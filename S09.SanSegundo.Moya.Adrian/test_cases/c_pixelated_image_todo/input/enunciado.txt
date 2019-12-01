@@ -1,0 +1,7 @@
+5	# numero de filas (m)
+7	# numero de columas (n). Siguen m lineas: cada una con n enteros separados por un espacio
+1	1	1	0	0	1	0
+0	1	0	0	1	1	0
+1	0	0	0	0	0	0
+1	1	1	0	1	0	0
+0	0	1	1	1	0	1

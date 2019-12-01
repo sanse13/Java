@@ -1,0 +1,51 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados
+[INFO] 4 archivos borrados en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados
+
+*** Test: 1 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/es_bst/input/01.completo3niveles.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/es_bst/output/01.completo3niveles.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/01.completo3niveles.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/01.completo3niveles.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/OUTPUT__01.completo3niveles.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/01.completo3niveles.txt...
+[INFO] Leida linea: @7@
+[App] Arbol leido
+1
+    [H. Izdo] 2
+        [H. Izdo] 4
+        [H. Dcho] 5
+    [H. Dcho] 3
+        [H. Izdo] 6
+        [H. Dcho] 7
+[INFO] Elapsed time [reading args]: 8 millis.
+[INFO] Ejecutando solucion...
+[INFO] Elapsed time [solve]: 2 millis.
+
+[INFO] Solucion ejecutada con: 01.completo3niveles.txt
+!!! Resultado correcto !!! con 01.completo3niveles.txt
+
+*** Test: 2 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/es_bst/input/20.bst3niveles2.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/es_bst/output/20.b.bst3niveles2.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/20.bst3niveles2.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/20.bst3niveles2.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/OUTPUT__20.bst3niveles2.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/20.bst3niveles2.txt...
+[INFO] Leida linea: @7@
+[App] Arbol leido
+4
+    [H. Izdo] 2
+        [H. Dcho] 3
+    [H. Dcho] 6
+        [H. Izdo] 5
+[INFO] Elapsed time [reading args]: 0 millis.
+[INFO] Ejecutando solucion...
+[INFO] Elapsed time [solve]: 0 millis.
+
+[INFO] Solucion ejecutada con: 20.bst3niveles2.txt
+!!! Resultado correcto !!! con 20.bst3niveles2.txt
+
+***********
+*** Exitos: 2 de 2
+***********
+

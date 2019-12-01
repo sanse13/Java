@@ -1,0 +1,2 @@
+Linea 1: un entero N, que es la cantidad de enteros en la linea siguiente
+Linea 2: N enteros, que son el contenido del array referido

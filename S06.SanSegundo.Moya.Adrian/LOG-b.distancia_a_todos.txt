@@ -1,0 +1,90 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados
+[INFO] 4 archivos borrados en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados
+
+*** Test: 1 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/b.distancia_a_todos/input/input2.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/b.distancia_a_todos/output/output00.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/input2.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/input2.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input2.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/input2.txt...
+[INFO] Leida linea: @0			# nodo origen@
+[App] start node:0
+[INFO] Leida linea: @false		# es dirigido@
+[INFO] Leida linea: @5			# nodos@
+[INFO] Leida linea: @9			# aristas@
+[App] Grafo leido
+	Nombre Grafo: input2.txt
+	Dirigido?: false
+	Nodos: 5
+	Nodo origen: 0; adyacentes: -> [1 2 3 4]
+	Nodo origen: 1; adyacentes: -> [0 2 3 4]
+	Nodo origen: 2; adyacentes: -> [0 1 3 4]
+	Nodo origen: 3; adyacentes: -> [0 1 2]
+	Nodo origen: 4; adyacentes: -> [0 1 2]
+[INFO] Elapsed time [reading args]: 543 millis.
+[INFO] Ejecutando solucion...
+[INFO] Elapsed time [solve]: 1 millis.
+
+[INFO] Solucion ejecutada con: input2.txt
+****************************
+!!! Resultado INCORRECTO !!!	input2.txt
+****************************
+*** Entrada [10 lineas de 14]
+0			# nodo origen
+false		# es dirigido
+5			# nodos
+9			# aristas
+0 1
+0 2
+0 3
+0 4
+1 2
+1 3
+*** Salida producida 
+0 1 1 1 1
+*** Salida esperada 
+0 1 2 -1 -1
+
+*** Test: 2 de 2 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/b.distancia_a_todos/input/input00.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./test_cases/b.distancia_a_todos/output/output2.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input00.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S06.SanSegundo.Moya.Adrian/./resultados/input00.txt...
+[INFO] Leida linea: @0			# nodo origen@
+[App] start node:0
+[INFO] Leida linea: @true		# es dirigido@
+[INFO] Leida linea: @5			# cantidad de nodos@
+[INFO] Leida linea: @2			# cantidad de aristas @
+[App] Grafo leido
+	Nombre Grafo: input00.txt
+	Dirigido?: true
+	Nodos: 5
+	Nodo origen: 0; adyacentes: -> [1]
+	Nodo origen: 1; adyacentes: -> [2]
+[INFO] Elapsed time [reading args]: 21 millis.
+[INFO] Ejecutando solucion...
+[INFO] Elapsed time [solve]: 0 millis.
+
+[INFO] Solucion ejecutada con: input00.txt
+****************************
+!!! Resultado INCORRECTO !!!	input00.txt
+****************************
+*** Entrada 
+0			# nodo origen
+true		# es dirigido
+5			# cantidad de nodos
+2			# cantidad de aristas 
+0 1
+1 2
+*** Salida producida 
+0 1 2 -1 -1
+*** Salida esperada 
+0 1 1 1 1
+
+***********
+*** Exitos: 0 de 2
+***********
+

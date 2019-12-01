@@ -1,0 +1,37 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados
+[INFO] 4 archivos borrados en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados
+
+*** Test: 1 de 1 ***
+	Entrada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/cercano_mas_alto/input/input00.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./test_cases/cercano_mas_alto/output/output00.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/OUTPUT__input00.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/S07.SanSegundo.Moya.Adrian/./resultados/input00.txt...
+[INFO] Leida linea: @0			# el nodo x@
+[App] x: 0
+[INFO] Leida linea: @5			# numero de nodos@
+[INFO] array H
+1 2 3 4 5
+[INFO] Leida linea: @7			# lineas con aristas del grafo@
+Grafo leido: 
+	Nombre Grafo: null
+	Dirigido?: false
+	Nodos: 5
+	Nodo origen: 0; adyacentes: -> [1 2 3]
+	Nodo origen: 1; adyacentes: -> [0 2 3]
+	Nodo origen: 2; adyacentes: -> [0 1 4]
+	Nodo origen: 3; adyacentes: -> [0 1 4]
+	Nodo origen: 4; adyacentes: -> [2 3]
+[INFO] Elapsed time [reading args]: 615 millis.
+[INFO] Ejecutando solucion...@input00.txt
+[INFO] Elapsed time [solve]: 0 millis.
+[App] Resultado: 4
+
+[INFO] Solucion ejecutada con: input00.txt
+!!! Resultado correcto !!! con input00.txt
+
+***********
+*** Exitos: 1 de 1
+***********
+

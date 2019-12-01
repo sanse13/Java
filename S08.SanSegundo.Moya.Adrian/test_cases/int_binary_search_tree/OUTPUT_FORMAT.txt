@@ -1,0 +1,2 @@
+Una linea por cada orden contains/findmin/inordernext, con un entero que es el resultado de
+realizar la operacion correspondiente sobre un arbol.

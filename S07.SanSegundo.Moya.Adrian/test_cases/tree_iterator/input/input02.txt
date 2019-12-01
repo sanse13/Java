@@ -1,0 +1,7 @@
+0				# dimension
+		
+
+# operaciones sobre el iterador
+
+hasNext
+next

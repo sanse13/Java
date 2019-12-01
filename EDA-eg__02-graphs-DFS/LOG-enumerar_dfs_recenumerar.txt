@@ -1,0 +1,34 @@
+[INFO] Encontrada carpeta: /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./resultados
+[INFO] 2 archivos borrados en /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./resultados
+
+*** Test: 1 de 1 ***
+	Entrada: /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./test_cases/enumerar_dfs_rec/input/input00.txt
+	Salida esperada: /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./test_cases/enumerar_dfs_rec/output/output00.txt
+[INFO] Entrada copiada en /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./resultados/input00.txt
+[INFO] System.in redirigido a archivo: /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./resultados/input00.txt
+[INFO] Archivo de salida: /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./resultados/OUTPUT__input00.txt
+[INFO] Leyendo archivo /home/adriansanse/eclipse-workspace/EDA-eg__02-graphs-DFS/./resultados/input00.txt...
+[INFO] Leida linea: @0			# inicio@
+[App] start node:0
+[INFO] Leida linea: @true		# dirigido@
+[INFO] Leida linea: @5			# nodos@
+[INFO] Leida linea: @7			# edge lines@
+[App] Grafo leido
+	Nombre Grafo: input00.txt
+	Dirigido?: true
+	Nodos: 5
+	Nodo origen: 0; adyacentes: -> [1 2 3]
+	Nodo origen: 1; adyacentes: -> [2 3]
+	Nodo origen: 2; adyacentes: -> [4]
+	Nodo origen: 3; adyacentes: -> [4]
+[INFO] Elapsed time [reading args]: 650 millis.
+[INFO] Ejecutando solucion...@input00.txt
+[INFO] Elapsed time [solve]: 2 millis.
+
+[INFO] Solucion ejecutada con: input00.txt
+!!! Resultado correcto !!! con input00.txt
+
+***********
+*** Exitos: 1 de 1
+***********
+
